@@ -11,7 +11,8 @@
         </script>
     </head>
     <body>
-        <h2>JS ROW practice heading</h2>
+        <h2 id='heading'>JS ROW practice heading</h2>
+        <p id='Paragraph-1'>Hello Asadullah!</p>
 
         <p id='demo'>
             A Paragraph
@@ -19,6 +20,19 @@
 
         <button type="button" onclick="myFunction()">Try It</button>
         <button type="button" onclick="myFunctionC()">Try C</button>
+
+        <button type="button" onclick="bodyChange()">Try It</button>
+        <button type="button" onclick="bodyChangeC()">Try C</button>
+
+        <script>
+            function bodyChange(){
+                document.getElementById('Paragraph-1').innerHTML = 'By by XpeedStudio!';
+            }
+
+            function bodyChangeC(){
+                document.getElementById('Paragraph-1').innerHTML = 'Hello Asadullah!';
+            }
+        </script>
 
     </body>
 </html>
