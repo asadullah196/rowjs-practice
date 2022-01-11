@@ -3,7 +3,7 @@ function bodyChange() {
 }
 
 function bodyChangeC() {
-    document.getElementById('Paragraph-1').innerHTML = 'Hello Asadullah Bhai!';
+    document.getElementById('Paragraph-1').innerHTML = '15 ' + 20;
 }
 
 
