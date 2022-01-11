@@ -18,6 +18,6 @@ function bodyChangeB() {
 
 function prices(){
     let x = 5;
-    x = x + 5;
+    x = x + 5.51;
     document.getElementById('price').innerHTML = 'Reset = ' + x;
 }
