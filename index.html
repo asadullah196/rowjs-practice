@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-    <head>
-    </head>
+<html>
     <body>
-        <h2 id='heading'>JS ROW practice heading</h2>
-        <p id='Paragraph1'>Hello Asadullah!</p>
 
-        <button type="button" onclick="bodyChange(2,3)">Test btn</button>
+        <h2>JavaScript Objects</h2>
+
+        <p id="demo"></p>
 
         <script>
-            
-            function bodyChange(x,y) {
+        // Create an object:
+        const car = {type:"Fiat", model:"500", color:"white"};
 
-                return z = x * y;
-
-            }
-            document.getElementById('Paragraph1').innerHTML = 'By by XpeedStudio! ' + bodyChange(2,15,25);
-
+        // Display some data from the object:
+        document.getElementById("demo").innerHTML = "The car type is " + car.type;
         </script>
-
-        <script src='myPractice.js'></script>
 
     </body>
 </html>
