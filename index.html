@@ -4,7 +4,11 @@
 
         <h2>JavaScript Objects</h2>
 
-        <button onclick="document.getElementById('demo').innerHTML=Date()">Display the time now!</button>
+        <button onmouseover="
+        document.getElementById('demo').innerHTML=Date()" 
+        onmouseout="document.getElementById('demo').innerHTML=myfunction(2,3);
+        ">Display the time now!</button>
+
         <button onclick="this.innerHTML = Date()">The time is?</button>
         <p id="demo"></p>
 
