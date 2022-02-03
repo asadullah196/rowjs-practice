@@ -1,7 +1,7 @@
 
 function backOrginal(){
 
-    inputString = "This is a BIG and little      Tea Place!";
+    inputString = document.getElementById('demo-2').value;
 
     document.getElementById('demo-1').innerHTML = inputString;
 }
