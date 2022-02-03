@@ -1,6 +1,15 @@
-//var x = document.getElementById("formInput");
 
-textSanple = "I'm a little tea pot    asad a.";
+function backOrginal(){
+    document.getElementById('demo-1').innerHTML = "This is a BIG and little      Tea Place!";
+}
+
+function backOrginal1(){
+    textSanple = "I'm a little tea pot    asad a.";
+    
+    document.getElementById('demo-1').innerHTML = titleCase(textSanple);
+}
+
+//var x = document.getElementById("formInput");
 
 function titleCase(str) {
     str = str.toLowerCase().split(' ');
@@ -10,4 +19,3 @@ function titleCase(str) {
     return str.join(' ');
 }
 
-document.getElementById('demo-1').innerHTML = titleCase(textSanple);
