@@ -1,11 +1,14 @@
 
 function backOrginal(){
-    document.getElementById('demo-1').innerHTML = "This is a BIG and little      Tea Place!";
+
+    inputString = "This is a BIG and little      Tea Place!";
+
+    document.getElementById('demo-1').innerHTML = inputString;
 }
 
 function backOrginal1(){
     textSanple = "I'm a little tea pot    asad a.";
-    
+
     document.getElementById('demo-1').innerHTML = titleCase(textSanple);
 }
 
