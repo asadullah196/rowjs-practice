@@ -1,6 +1,6 @@
 //var x = document.getElementById("formInput");
 
-textSanple = "I'm a little tea pot    asad a";
+textSanple = "I'm a little tea pot    asad a.";
 
 function titleCase(str) {
     str = str.toLowerCase().split(' ');
@@ -10,4 +10,4 @@ function titleCase(str) {
     return str.join(' ');
 }
 
-document.getElementById('demo').innerHTML = titleCase(textSanple);
+document.getElementById('demo-1').innerHTML = titleCase(textSanple);
