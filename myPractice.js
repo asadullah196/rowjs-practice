@@ -7,7 +7,7 @@ function backOrginal(){
 }
 
 function backOrginal1(){
-    textSanple = "I'm a little tea pot    asad a.";
+    textSanple = document.getElementById('demo-2').value;
 
     document.getElementById('demo-1').innerHTML = titleCase(textSanple);
 }
