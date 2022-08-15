@@ -1,3 +1,11 @@
+let myName1 = "Asadullah Galib";
+
+for(let x of myName1){
+    console.log(x);
+}
+
+console.log("For IN done");
+
 const cars = ["A", "B", "C", "D", "E", "F", "G"];
 
 for(let i = 0; i<cars.length; i++){
