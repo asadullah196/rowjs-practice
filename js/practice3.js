@@ -3,8 +3,12 @@
 let myString 
 = "Hello Samiha, I am reading w3schools. Hope to become an JS developer soon";
 
+let myExp = myString.search(/Samiha/i);
 
 console.log(myString);
+console.log(myExp);
+
+/*
 // Map DS
 const fruitsMap = new Map();
 
@@ -55,3 +59,4 @@ const myName = {
 for( let x in myName){
     console.log(myName[x]);
 }
+*/
