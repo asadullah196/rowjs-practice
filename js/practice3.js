@@ -5,7 +5,7 @@ const fruitsMap = new Map();
 fruitsMap.set("Appel", 500);
 fruitsMap.set("Bananas", 200);
 fruitsMap.set("Oranges", 100);
-fruitsMap.set("Khajoor", 600);
+fruitsMap.set(1, 600);
 
 console.log(fruitsMap);
 
