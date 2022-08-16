@@ -1,4 +1,10 @@
+//Regular Expression
 
+let myString 
+= "Hello Samiha, I am reading w3schools. Hope to become an JS developer soon";
+
+
+console.log(myString);
 // Map DS
 const fruitsMap = new Map();
 
