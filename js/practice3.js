@@ -1,3 +1,7 @@
+
+
+// Day 02 ends here
+
 let myName1 = "Asadullah Galib";
 
 for(let x of myName1){
