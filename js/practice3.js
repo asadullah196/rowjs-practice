@@ -1,3 +1,15 @@
+
+// Map DS
+const fruitsMap = new Map();
+
+fruitsMap.set("Appel", 500);
+fruitsMap.set("Bananas", 200);
+fruitsMap.set("Oranges", 100);
+fruitsMap.set("Khajoor", 600);
+
+console.log(fruitsMap);
+
+// Set DS
 const mySet = new Set();
 
 mySet.add("A");
@@ -7,15 +19,6 @@ mySet.add("AD");
 mySet.add("a");
 
 console.log(mySet);
-
-const fruitsMap = new Map();
-
-fruitsMap.set("Appel", 500);
-fruitsMap.set("Bananas", 200);
-fruitsMap.set("Oranges", 100);
-fruitsMap.set("Khajoor", 600);
-
-console.log(fruitsMap);
 
 // Day 02 ends here
 
