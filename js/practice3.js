@@ -1,4 +1,12 @@
+const mySet = new Set();
 
+mySet.add("A");
+mySet.add("B");
+mySet.add("C");
+mySet.add("AD");
+mySet.add("a");
+
+console.log(mySet);
 
 // Day 02 ends here
 
