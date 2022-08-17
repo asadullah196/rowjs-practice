@@ -1,23 +1,22 @@
 // Try Catch test with self made error
 
-let myInput = "";
+let myInput = 12;
 
 try {
-    if(myInput == ""){
-        throw "Empty";
+    if(myInput == "") throw "Empty";
+    if(isNaN(myInput)) throw "Not a number";
+    myInput = Number(myInput);
+
+    if(myInput < 5) throw "Too small";
+    if(myInput > 5) throw 
+    {
+        name: "Too big",
+        village: "Dhaka",
     }
-    if(isNaN(myInput)){
-        throw "Not a number";
-    }
-    if(myInput < 5){
-        throw "Too small";
-    }
-    if(myInput > 5){
-        throw "Too big";
-    }
+
 }
 catch(err){
-    
+    console.log(err);
 }
 
 console.log("Made by galib");
