@@ -3,20 +3,14 @@
 let myInput = 12;
 
 try {
-    if(myInput == "") throw "Empty";
-    if(isNaN(myInput)) throw "Not a number";
+    if (myInput == "") throw "empty";
+    if (isNaN(myInput)) throw "not a number";
     myInput = Number(myInput);
-
-    if(myInput < 5) throw "Too small";
-    if(myInput > 5) throw 
-    {
-        name: "Too big",
-        village: "Dhaka",
-    }
-
+    if (myInput < 5) throw "too low";
+    if (myInput > 10) throw "too high";
 }
-catch(err){
-    console.log(err);
+catch (err) {
+    console.log(err)
 }
 
 console.log("Made by galib");
