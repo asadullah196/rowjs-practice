@@ -12,7 +12,11 @@ console.log(window.myCar1);
 
 // Hoisting Variable
 
-myName = "Galib";
-console.log(myName);
+var x = 5, y = 8;
 
-var myName;
+console.log(x, y, z);
+
+z = 11;
+
+var x, y, z;
+
