@@ -1,7 +1,7 @@
 // Automatically Global Variable
 
 function myFunction(){
-    myCar = "Audi";
+    let myCar = "Audi";
 }
 
 myFunction();
