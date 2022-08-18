@@ -1,4 +1,5 @@
 // Automatically Global Variable
+"use strict";
 
 function myFunction(){
     myCar = "Audi";
