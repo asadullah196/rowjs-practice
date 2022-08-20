@@ -1,3 +1,11 @@
+//Arrow function
+
+myFunction = () => {
+    return "Asadullah Galib";
+}
+
+console.log(myFunction());
+
 //This keyword
 
 const myNameOne = {
