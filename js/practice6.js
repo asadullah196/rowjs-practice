@@ -10,6 +10,7 @@ class myCar {
 }
 
 console.log(new myCar("AUDI", 2022, "Galib", 2.5 + "cr"));
+
 //Arrow function
 
 myFunction = () => {
