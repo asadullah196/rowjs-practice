@@ -5,6 +5,10 @@ let fullName = firstName + " " + lastName;
 console.log(fullName);
 
 // Comparison
+let x = 10;
+switch(x) {
+    case 10 : console.log("Hey baby!");
+}
 
 let firstNumber  = 10, secondNumber = "10";
 
