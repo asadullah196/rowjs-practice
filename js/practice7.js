@@ -7,7 +7,10 @@ console.log(fullName);
 // Comparison
 let x = 10;
 switch(x) {
-    case 10 : console.log("Hey baby!");
+    case "10" : console.log("Hey baby!");
+    break;
+    case 10 : console.log("Hey Galib!");
+    break;
 }
 
 let firstNumber  = 10, secondNumber = "10";
