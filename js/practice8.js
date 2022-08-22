@@ -11,7 +11,7 @@ console.log("lorem repeation = " + occurances);
 
 const position = myName.search(/lorem/i);
 
-console.log("lorem found at = " + position+1);
+console.log("lorem found at = " + position);
 
 // JS practice started here
 console.log("Asad");
