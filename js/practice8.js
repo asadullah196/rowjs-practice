@@ -5,7 +5,11 @@ const myName = "Lorem Ipsum is simply dummy text of the printing and typesetting
 const matches = myName.match(/lorem/gi);
 console.log(matches);
 
-console.log("lorem repeation = " + matches.length);
+const occurances = matches ? matches.length : 0;
+
+console.log("lorem repeation = " + occurances);
+
+
 
 // JS practice started here
 console.log("Asad");
