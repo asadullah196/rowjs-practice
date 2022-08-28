@@ -12,4 +12,9 @@ const person = {
     }
 }
 console.log(person.getName());
+
+person.Country = "Dhaka";
+
+console.log(person);
+
 const person2 = person;
