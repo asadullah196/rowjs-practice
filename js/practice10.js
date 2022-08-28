@@ -9,9 +9,13 @@ const myName = {
     year: 1996,
 }
 
+let myName1 = "";
+
 for(let x in myName){
-    console.log(x);
+    myName1 += myName[x] + ", ";
 }
+
+console.log(myName1);
 
 // Test message printing
 console.log("JS Object started here");
