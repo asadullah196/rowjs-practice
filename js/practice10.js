@@ -12,7 +12,4 @@ const person = {
     }
 }
 console.log(person.getName());
-
-
-
 const person2 = person;
