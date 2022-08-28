@@ -1,3 +1,18 @@
+// For in loop test
+
+const myName = {
+    fname: "Asad",
+    mname: "Ullah",
+    lname: "Galib",
+    age:26,
+    home: "pabna",
+    year: 1996,
+}
+
+for(let x in myName){
+    console.log(x);
+}
+
 // Test message printing
 console.log("JS Object started here");
 
