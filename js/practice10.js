@@ -4,9 +4,9 @@ console.log("JS Object started here");
 //Object printing
 
 const person = {
-    name: "Asadullah Galib",
-    age: 26,
-    home: "Mirpur",
+    Name: "Asadullah Galib",
+    Age: 26,
+    Home: "Mirpur",
     getName: function() {
         return this.name + " CIP";
     }
