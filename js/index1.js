@@ -4,7 +4,7 @@ function myFunction() {
 
 // Store function into variable
 
-var  x = function myFunctionOne(a, b, c) {
+var  x = function (a, b, c) {
     return a * b - c;
 };
 
