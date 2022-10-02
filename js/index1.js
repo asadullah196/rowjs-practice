@@ -15,3 +15,22 @@ console.log(x(10,4,6));
 (function () {
     alert("Asad");
 })();
+
+*/
+
+const person = {
+    fullName: function () {
+        return this.name1;
+    }
+};
+
+const xy = {
+    name1 : "Asad",
+};
+
+const y = {
+    name1 : "Asadullah",
+};
+
+const name = person.fullName.call(y);
+console.log(name);
