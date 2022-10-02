@@ -10,3 +10,7 @@ var  x = function (a, b, c) {
 
 myFunction();
 console.log(x(10,4,6));
+
+(function () {
+    alert("Asad");
+})();
