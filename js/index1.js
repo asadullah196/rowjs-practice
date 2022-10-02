@@ -1,46 +1,15 @@
-function myFunction() {
-    console.log("Galib!");
-}
-
-// Store function into variable
-
-var  x = function (a, b, c) {
-    return a * b - c;
-};
-
-myFunction();
-console.log(x(10,4,6));
-
-/*
-(function () {
-    alert("Asad");
-})();
-
-*/
-
-const person = {
-    fullName: function () {
-        return this.name1;
+function add () {
+    myNum = 0;
+    return function() {
+        myNum++;
     }
-};
-
-const xy = {
-    name1 : "Asad",
-};
-
-const y = {
-    name1 : "Asadullah",
-};
-
-const name = person.fullName.call(y);
-console.log(name);
-
-let myNum = 4;
-function myNumber () {
-    return myNum * 3;
+    
 }
 
-console.log(myNum);
+const plus = add();
 
-myNumber ();
-console.log(myNumber());
+plus ();
+plus ();
+plus ();
+plus ();
+console.log(myNum);
