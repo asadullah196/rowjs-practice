@@ -34,3 +34,13 @@ const y = {
 
 const name = person.fullName.call(y);
 console.log(name);
+
+let myNum = 4;
+function myNumber () {
+    return myNum * 3;
+}
+
+console.log(myNum);
+
+myNumber ();
+console.log(myNumber());
