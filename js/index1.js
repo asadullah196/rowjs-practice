@@ -3,9 +3,10 @@ function display(some) {
 }
 
 function calculator(num1, num2) {
-    return sum = num1 + num2;
+    let sum = num1 + num2;
     //return sum;
+    display(sum);
 }
 
-let result = calculator(5, 8);
-display(result);
+calculator(5, 10);
+//display(result);
