@@ -1,1 +1,12 @@
-document.getElementById("demo").innerHTML = '<a href="#">Asad</a>';
+function validateForm(){
+    const form = document.forms['myForm'];
+    const value = form['fname'].value;
+
+    //console.log(value);
+
+    if(value === "") {
+        alert("Emty Form!");
+        return false;
+    }
+    return false;
+}
