@@ -1,10 +1,4 @@
-function validateForm(){
-    const form = document.forms['myForm'];
-    const value = form['fname'].value;
-
-    if(value === "") {
-        alert("Emty Form!");
-        return false;
-    }
-    return false;
+function changeCity() {
+    const cityName = document.querySelector('#demo');
+    cityName.innerHTML = "California saying you hello!"
 }
